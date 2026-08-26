@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Inicial de Formularios</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <h2>Formularios:</h2>
+    <form method="GET| POST" action="URL - Destino" 
+    enctype="application/x-www-form-urlencoded" | multipart / form - data></form>
+
+    <!-- atributo method : nos permite indicarle al formulario la forma en la que va a ser enviado
+     y existen dos valores posibles que son GET y POST.
+     
+     si no se coloca nada, es decir si colocamos method="" por defecto va a trabajar con GET 
+     GET significa que los datos enviados se van adjuntar en la barra de direcciones de tiempo,
+     al final de la URL despues de un signo de interrigacion?. si se envian mas de un dato estos se van 
+     separar por &, wwww.hola.com?user= karen&clave=123456
+     
+     POST:es el mas recomendado cuando se envia informacion. No se asume por defecto, debe colocarse
+     de forma explicita.
+     
+     A tributo action: le indica a la pagina actual hacia  cual pagina debe enviar los datos del 
+     formulario, se los envia como parametros.
+     
+     Atributo enctype: puede ser de los siguientes tipos 
+     
+     1. Application/x-www-form-urlencoded, es el valor predeterminado todos los caracteres se codifican
+      antes de ser enviados, si hay espacios se convierten en signos + y los caracteres especiales se
+      convierten en valores ASCII HEX
+      
+     2. Multipart/form-data: este es el formato que se debe usar cuando se va a cargar un archivo
+     a travez del formulario
+     
+     3. texto plain: envia los datos sin ningun tipo de codificacion. no es recomendado
+     
+     -->
+
+</body>
+</html>
