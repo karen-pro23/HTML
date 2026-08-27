@@ -1,2 +1,6 @@
 # Tooling cache
 .atl/
+
+# Media and documents (course materials)
+*.mp4
+*.pptx

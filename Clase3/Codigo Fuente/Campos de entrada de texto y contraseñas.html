@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>campos de entrada de texto y contraseñas</title>
+</head>
+<body>
+    
+    <h2>Campos de entrada de texto y contraseñas</h2>
+    <form method="" action="" enctype="">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="30" 
+            maxlength="15" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" size="16" 
+            maxlength="10" placeholder="Ingrese su contraseña"  
+            pattern="^[ñÑÁáÉéOóÚúa-zA-Z0-9]{4,8}$" title="no inserte simbolos">
+            <!-- si es numero de tlf ejemplo pattern= "[/d{4}-d/{7}]"
+             [A-Z]{3}-[0-9]{3} -->
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <!-- Expresiones regulare:
+        .- cualquier caracter, execto una linea nueva
+        /d - Cualquier digito (0-9)
+        /D - Nosea digito  (0-9)
+        /w - Cualquier caracter de palabra (a-z, A-Z, 0-9, _)
+        /W - No sea caracter de palabra (a-z, A-Z, 0-9, _)
+        /s - Cualquier espacio en blanco (espacio, tabulacion, salto de linea
+        /S - No sea un espacio, tabuladores, linea nueva.
+
+        CUANTIFICADORES:
+        * - Cero o mas veces 0 o mas
+        + - Una o mas veces 1 o mas
+        ? - Cero o una vez 0 o 1
+        {n} - Exactamente n veces 
+        {n,} - Al menos n veces
+        {n,m} - Al menos n veces pero no mas de m veces
+        -->
+</body>
+</html>

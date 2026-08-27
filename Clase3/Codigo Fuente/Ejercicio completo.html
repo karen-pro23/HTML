@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Ejercicios </title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <h2>Formulario - Ejercicios</h2>
+    <form method="" action="" enctype="">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" size="16"
+            maxlength="15" placeholder="ingresa tu nombre" value="gabriela" disabled>
+
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido</label>
+            <Input type="text" id="apellido" name="apellido" size="16"
+            maxlength="10" placeholder="ingrese su apellido"></Input>
+        </div>
+        <br>
+         <div>
+            <label for="contrasena">Contraseña</label>
+            <Input type="text" id="contrasena" name="contrasena" size="16"
+            maxlength="10" placeholder="ingrese su contrasena"></Input>
+        </div>
+        <br>
+        <div>
+            <label for="cursos_realizados">cursos realizados</label>
+            <br>
+            <input type="checkbox" name="cursos_realizados" value="diseño_web_wordpress"
+            checked disabled> Diseño de Paginas Web con Wordpress
+            <br>
+            <label for="cursos_realizados">cursos realizados</label>
+            <br>
+            <input type="checkbox" name="cursos_realizados" value="diseño_web_elementor"
+            checked disabled> Diseño de Paginas Web con Elementor
+            <br>
+            <label for="cursos_realizados">cursos realizados</label>
+            <br>
+            <input type="checkbox" name="cursos_realizados" value="diseño_de_paginas_sociales"
+            checked disabled> Diseño de Paginas Sociales
+            <br>
+            <input type="checkbox" name="cursos_realizados" value="community manager"
+            checked disabled> Community Manager
+        </div>
+        <br>
+        <div>
+            <label for="sexo"><b>Sexo</b></label>
+            <input type="radio" name="sexo" value="masculino" checked disabled> Masculino
+            <input type="radio" name="sexo" value="femenino" checked disabled> Femenino
+        </div>
+        <br>
+        <div>
+            <label for="edad"><b>Edad:</b></label>
+            <select name="edad" id="edad">
+                <option value="">Seleccione...</option>
+                <option value="0_20">0-20</option>
+                <option value="21_40">21-40</option>
+                <option value="41_60" selected>41-60</option>
+                <option value="61_80">61-80</option>
+                <option value="81+">81+</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="foto"><b>Adjunta tu fotodo de perfil</b></label>
+            <input type="file" id="foto" name="foto">
+        </div>
+        <br>
+        <div>
+            <label for="observaciones"> Observaciones</label>
+            <textarea rows="5" cols="40" name="observaciones" placeholder="Escribe aqui tus observaciones"></textarea>
+
+        </div>
+        <br><br>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
