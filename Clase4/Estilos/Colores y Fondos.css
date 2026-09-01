@@ -1,0 +1,23 @@
+.fondo-cubiwelt{
+    background-image: url(../Imagen/M10C7.jpg);
+    height:768px;/*Altura*/
+    width:70%;
+    background-position: center;/*Posicionamiento de la imagen*/
+    background-repeat: repeat;/*Repeticion de la imagen*/
+    background-size: cover;/*Tamaño de la imagen*/
+    /*cover: redimensionamos la imaen de fondo para que cubra el contenedor por completo.
+    contain: permitimos que la imagen se muestre por completo dentro del contenedor*/
+    opacity: 1;/*opacidad de la imagen*/
+    
+}
+p{
+    color: #0FF1FF;/*color de texto blanco*/
+    /*colores por defecto en CSS
+    green=verde
+    white=blanco
+    red=rojo
+    yellow=amarillo
+    black=negro
+    grey=gris
+    blue=azul*/
+}

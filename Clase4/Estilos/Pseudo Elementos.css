@@ -1,0 +1,24 @@
+p::before{
+    content:'A- CONTENIDO ANTES DEL PARRAFO';
+    color: #FF0000;
+    /*CAMBIOS ANTES DEL SELECTOR*/
+}
+
+P::after{
+    content:'B- CONTENIDO DESPUES DEL PARRAFO';
+    color: #00FF00;
+    /*CAMBIOS DESPUES DEL SELECTOR*/
+}
+P:first-letter{
+    color: #000000;
+    /*CAMBIOS EN LA PRIMERA LETRA DEL PARRAFO*/
+}
+p::first-line{
+    color: #0C00FF;
+    /*CAMBIOS EN LA PRIMERA LINEA DEL PARRAFO*/
+}
+p::selection{
+    color: #FFFFFF;
+    background-color: #8d00b6;
+    /*CAMBIOS EN EL TEXTO SELECCIONADO DEL PARRAFO*/
+}

@@ -1,0 +1,21 @@
+p {
+    text-indent: 30%;/* desplazamiento de la primera linea de texto*/
+    text-align: justify;/*justificacion del texto*/
+    text-decoration: none;/*decoracion de texto subrayado , tachado-valores|none     underline| underline wavy |   overline| line- through*/
+    letter-spacing: 0px;/*espaciado entre letras*/
+    word-spacing: 20px;/*espaciado entre palabras*/
+    text-transform: capitalize;/*transformacion de texto a mayusculas capitalize | uppercase | lowercase |none*/
+    line-height: 30px;/*altura de linea de texto*/
+    vertical-align: middle;/*alineacion vertical del texto top| middle | bottom*/
+
+
+}
+
+.fuente-arial{
+    font-family:Arial, Helvetica, sans-serif;/*fuente de texto*/
+    font-style: normal;/*estilo de fuente normal | italic | oblique*/
+    font-variant: small-caps; /*convierte el texto en mayusculas ocupando el espacion del texto en minusculas*/
+    font-weight: bolder;/*grosor de la fuente normal | bold | bolder | lighter | 100-900*/
+    font-size:xx-small;/*tamaño de la fuente xx-small | x-small | small | medium | large | x-large | xx-large | smaller | larger | length*/
+
+}

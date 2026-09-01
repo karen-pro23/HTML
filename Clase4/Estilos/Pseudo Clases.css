@@ -1,0 +1,16 @@
+a:active{
+    background-color: #0C00FF;
+    /*efecto aplicado al pulsar sobre la etiqueta a*/
+}
+a:link{
+    color :#FF0000 /*COLOR ROJO*/
+    /*CAMBIAR EL COLCR DEL ENLACE CUANDO NO SE HA INGRESADO AL MISMO*/
+}
+a:visited{
+    color: #505050; /*COLOR GRIS*/
+    /*CAMBIAR EL COLOR DEL ENLACE CUANDO YA SE HA VISITADO*/
+}
+a:hover{
+    color: #00FF00; /*COLOR VERDE*/
+    /*efecto al pasar el cursor del mouse sobre la etiqueta a*/
+}

@@ -1,0 +1,31 @@
+p{
+    color: #B200B9;
+  /*selector de etiqueta*/
+}
+.fondo-cubiwelt{
+    background-color: #B200B9;
+    /*selector clase*/
+}
+#centrar-texto{
+    text-align: center;
+    /*selector identificador */
+}
+*{
+    font-style: bold;
+    /*selector universal*/
+}
+p span {
+    background-color: #000000;
+    /*selector descendiente*/
+}
+h3,small{
+    color: #07dace; /*texto azul*/
+    background-color: #979797;/*fondo gris*/
+    /*combinacion de selectores*/
+}
+div>span{
+    color:#000000;
+    background-color: #B200B9;
+    /*selector de hijos*/
+}
+
