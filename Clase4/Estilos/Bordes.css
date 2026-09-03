@@ -1,0 +1,21 @@
+.celeste{
+    background: #66FAFF;
+
+}
+
+.gris{
+    background: #E5E5E5;
+
+}
+
+.morado{
+    background: #800080;
+}
+
+.border{
+    border: 4px solid #0000FF;
+    border-top: 4px solid #C000FF;
+    border-bottom: 4px solid #66FAFF;
+    border-style: dashed;
+
+}

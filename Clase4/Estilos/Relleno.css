@@ -1,0 +1,20 @@
+.celeste {
+    background-color: #66FAFF;
+    width: 30%;
+    height: 30%;
+}
+
+.gris {
+    background-color: #E5E5E5;
+}
+
+.morado {
+    background-color: #800080;
+}
+
+
+.relleno{
+    /* p:10 */
+    padding: 10px;
+    /* padding: 10px 30px; funciona en el sentido de las agujas del reloj  */
+}
