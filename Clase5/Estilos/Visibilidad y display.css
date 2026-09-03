@@ -1,0 +1,44 @@
+.celeste{
+    background: #66FAFF;
+    height: 150px;
+    width: 150px;
+  
+
+}
+
+.gris{
+    background: #E5E5E5;
+    height: 150px;
+    width: 150px;
+
+}
+
+.morado{
+    background: #800080;
+    height: 150px;
+    width: 150px;
+    
+}
+.no-visualizar{
+    display: none;
+    /* los elementos se ocultan y no se muestran el espacio reservado */
+    
+}
+
+.visualizar-en-linea{
+   display: inline;
+   /* los elementos de muestran en la misma linea(respetando el flujo) y no se aceotan las propiedades width, height ni margenes verticales  */
+    
+
+}
+.visualizar-en-bloque{
+    display: block;
+    /* los elementos se muestrab en lineas indeoendientes u se aceptan las propiedades width y heigtht y margenes verticales */
+    
+}
+.visualizar-en-linea-bloque{
+    display: inline-block;
+    /* los elementos se muestran en la misma linea(respetando el flujo) y se aceptan las propiedades width, height y margenes verticales */
+    
+}
+

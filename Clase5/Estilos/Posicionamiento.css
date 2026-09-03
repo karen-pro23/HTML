@@ -1,0 +1,45 @@
+.celeste{
+    /* bgc#808080+w150+h150+dib */
+    position: relative;
+    background: #66FAFF;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+  
+}
+
+.gris{
+    background: #E5E5E5;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+
+}
+
+.morado{
+    background: #800080;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    
+}
+.contenedor{
+    height: 2000px;
+}
+.posicionamiento{
+    /* position:fixed; 
+    position: absolute;
+    position: relative;*/
+    position: static;
+    top:50px;
+    /* esta propiedad define como posicionar el elemento seleccionado en el docimento 
+    valores
+    static: el elemeot tirne una posicion estatica de acuerdo con el flujo normal de la pagina, casi nunca se usa
+    relativa: el elemento esta posicionado relativamente a su posicion original y su posicionamiento original y su 
+    posicionamienro no afecta la posicion de los demas elemetos 
+    adsolute: el elemento es sacado del flujo normal de la pagina y el css no crea un espacio de la ventana 
+    de navegacion
+    fixed: otorga posicionamiento fijo al elemento y su posicionamiento afecta la posocopon de los de
+    elementos, su posicionamiento se debe configurar en base a la ventana de navegacion*/
+}
+

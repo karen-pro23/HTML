@@ -1,0 +1,37 @@
+.celeste{
+    /* bgc#808080+w150+h150+dib */
+    
+    background: #66FAFF;
+    height: 150px;
+    width: 150px;
+    
+  
+}
+
+.gris{
+    background: #E5E5E5;
+    height: 150px;
+    width: 150px;
+   
+
+}
+
+.morado{
+    background: #800080;
+    height: 150px;
+    width: 150px;
+   
+    
+}
+.flotador-izquierdo{
+    float: left;
+    /* esta propiedad permite que un elemento se desplace a la izquierda o derecha de su contenedor, permitiendo que el contenido fluya alrededor de él. */
+}
+.flotador-derecho{
+    float: right;
+    /* esta propiedad permite que un elemento se desplace a la izquierda o derecha de su contenedor, permitiendo que el contenido fluya alrededor de él. */
+}
+.romper-flotador{
+    clear: both;
+    /* esta propiedad se utiliza para controlar el comportamiento de los elementos flotantes en relación con otros elementos en la página. */
+}
