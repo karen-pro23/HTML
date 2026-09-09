@@ -10,7 +10,9 @@
 
 .morado{
     background: #800080;
+    border:outset 4px black
 }
+
 
 .margen{
     margin: 50px;
