@@ -1,0 +1,92 @@
+body {
+    margin: 10;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+
+.morado,
+.gris,
+.celeste {
+    
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing:border-box;
+    border:outset 4px black;
+    margin-top: -10%;
+    margin-left: 10%;
+    
+   
+}
+
+.morado {
+    background: rgb(201, 62, 236);
+    color: white;
+    
+}
+
+.gris {
+    
+    background: rgb(153, 151, 151);
+    
+}
+
+.celeste {
+    background: rgb(24, 231, 238);
+    
+}
+
+.negro {
+    background: black;
+    color: white;
+    width: 250px;
+    height: 250px;
+    padding: 15px 20px;
+    margin: 20px 0 0 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.izquierda,
+.derecho,
+.posicion-gris-1,
+.posicion-gris-2 {
+    float: left;
+    width: 180px;
+    margin: 0 20px;
+    margin-top: 100px;
+    margin-left: 60px
+}
+.posicion-celeste-1{
+    position: relative;
+    z-index: 1;
+    top: -700px;
+    left: 100px;
+}
+.posicion-celeste-2{
+    position: relative;
+    z-index: 1;
+    top: -50px;
+    left: -100px;
+}
+.derecho {
+    float: right;
+}
+
+.romper-flotador {
+    clear: both;
+}
+
+h1,
+h2 {
+    
+    margin: 0;
+    text-align: center;
+}
