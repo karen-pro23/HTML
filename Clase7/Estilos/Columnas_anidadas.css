@@ -1,0 +1,17 @@
+.row{
+    background: black;
+}
+.columna-principal{
+    background: black;
+    color: aquamarine;
+    text-align: center;
+    border: 3px solid red;
+
+}
+.columna-interna{
+    background-color: blue;
+    color: white;
+    border: 3px solis grey;
+    padding: 10px;
+
+}
