@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'personal';
+    src: url(../Archivos/WhatsApp\ Image\ 2026-09-08\ at\ 4.04.27\ PM.jpeg);
+}
+*{
+    font-family: 'personal';
+}
+
+body{
+    margin: 0;
+}
+.logo{
+    /* w125+pt5 */
+    width: 125px;
+    padding-top: 5px;
+}
+header{
+    width: 70%;
+    background-color: #f3f3f3;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-bottom: 3px inset #fb2;
+    font-weight: bold;
+    /* w70%+bgc-#f3f3f3+pl15%+pr15%+bdb3-inset-#ffbb22+fwb */
+  
+}
+.flotador-izquierdo{
+    float: left;
+}
+.flotador-derecho{
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul a{
+    text-decoration:none;
+    color: black;
+
+}
+nav li{
+    padding:21px 20px;
+}
+
+nav li:hover{
+    background: #fb2;
+
+}
+.borde-imagen{
+    clip-path: polygon(50.0% 0.0%, 61.0% 35.0%, 98.0% 35.0%, 68.0% 57.0%, 79.0% 91.0%, 50.0% 70.0%, 21.0% 91.0%, 32.0% 57.0%, 2.0% 35.0%, 39.0% 35.0%);
+    /* clip-path: polygon(0 0,100% 0,100% 90%,0% 100%); */
+}
+
