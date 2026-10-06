@@ -1,0 +1,45 @@
+.row-cabecera{
+    background: rgb(49, 129, 208);
+     height: 50px;
+    align-content: center;
+    padding: 10px;
+    /* altura fondo alineacion y padding */
+
+}
+.row-imagen{
+    background: rgb(106, 105, 105);
+    text-align: center;
+/* altura fondo y alineacion de texto */
+}
+
+.row-noticias{
+    background: rgb(16, 41, 230);
+    
+/* noticias solo fondo alineacion  */
+}
+
+.row-testimonio{
+    background: grey;
+    /* altura y fondo */
+}
+
+.color-gris{
+     background: grey;
+
+} 
+/* fondo  */
+.row-empresa{
+     background: rgb(37, 37, 255);
+
+} solo fondo
+
+.row-aliado{
+     background: rgb(105, 105, 105);
+     align-content: ;
+
+} 
+/* lleva fondo y alineacion  */
+.color-azul{
+     background: rgb(21, 14, 221);
+   /* solo fondo */
+}
