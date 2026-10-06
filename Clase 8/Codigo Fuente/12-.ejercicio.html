@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Barra de Navegación</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="../Estilos/Estilos/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        
+        .navbar-custom {
+            background-color: #299ad7; 
+        }
+        
+        .navbar-custom .navbar-nav .nav-link,
+        .navbar-custom .navbar-brand {
+            color: rgb(253, 253, 255) !important;
+            font-size: 0.95rem;
+        }
+        
+        .navbar-custom .navbar-nav .nav-link:hover {
+            color: #3e5a76 !important;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../Imagen/logo.jpeg" alt="Logo" width="40" height="40" class="rounded-circle me-2">
+                <span class="fw-bold">Mi Proyecto</span>
+            </a>
+
+            <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#menu-ingenieria" aria-controls="menu-ingenieria" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-ingenieria">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            General
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Opción General </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Perfil Empresarial
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tipo de contacto</a></li>
+                            <li><a class="dropdown-item" href="#">Categoria de acontecimineto</a></li>
+                             <li><a class="dropdown-item" href="#">Tipo de acontecimiento</a></li>
+                        </ul>
+                        
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Perfil Personal
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mis persona</a></li>
+                            <li><a class="dropdown-item" href="#">multimedia</a></li>
+                            <li><a class="dropdown-item" href="#">solicitud</a></li>
+                            <li><a class="dropdown-item" href="#">contacto</a></li>
+                            <li><a class="dropdown-item" href="#">publicacion</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seguridad
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Usuario</a></li>
+                            <li><a class="dropdown-item" href="#">tipo de privacidad</a></li>
+                            <li><a class="dropdown-item" href="#">Rol</a></li>
+                            <li><a class="dropdown-item" href="#">Rol en fan page</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ubicación
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Continente</a></li>
+                            <li><a class="dropdown-item" href="#">Pais</a></li>
+                            <li><a class="dropdown-item" href="#">Estado</a></li>
+                            <li><a class="dropdown-item" href="#">Ciudad</a></li>
+                            <li><a class="dropdown-item" href="#">Zona horaria</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- Fin de la Barra de Navegación -->
+
+   
+    <div class="container mt-5 text-center">
+    </div>
+
+    <!-- Bootstrap 5 JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

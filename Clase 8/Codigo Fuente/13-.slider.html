@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap 5 CSS -->
+    <link href="../Estilos/Estilos/css/bootstrap.min.css" rel="stylesheet">
+    <title>slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row m-3">
+            <!-- carousel: define el contenedor principal del carrusel
+             slide añade una animacion de transicion deslizante entre cada elemento  -->
+
+             <div class="col">
+                <div class="carousel slide carousel-fade "id="ejemplo-slider"
+                data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carrusel-captiom">
+                        <h2>esto es un slider</h2>
+                    </div>
+                    <img src="../Imagen/slider1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Imagen/slider2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Imagen/slider3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#ejemplo-slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#ejemplo-slider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ejemplo-slider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#ejemplo-slider" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#ejemplo-slider" data-bs-slide-to="2"></button>
+                    </div>
+
+            </div></div>
+             </div>
+        </div>
+    </div>
+    <!-- Bootstrap 5 JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

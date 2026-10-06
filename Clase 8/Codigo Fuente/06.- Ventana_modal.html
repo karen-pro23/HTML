@@ -1,0 +1,64 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas</title>
+    <!-- Enlace Local Archivos Descargados -->
+    <!-- <link rel="stylesheet" href="../Estilos/css/bootstrap.min.css"> -->
+    <!--Enlace del CSS de Bootstrap (Debe ir siempre en el <head>) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Estilos/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Las ventanas modales son cuadros de diálogo emergentes que se superponen al contenido principal, se usan para
+    mostrar formularios de inicio de sesión, confirmaciones importantes, imágenes amplias o avisos detallados sin
+    necesidad de redirigir al usuario a otra página.
+    .modal: define el contenedor principal de toda la ventana.
+    .fade: añade una animación de desvanecimiento suave al abrir y cerrar.
+    .modal-dialog: controla el ancho y el posicionamiento general de la caja de diálogo.
+    .modal-content: envuelve todo el contenido visual y le da el fondo blanco, los bordes redondeados y la sombra.
+
+    .modal-sm: modal pequeña.
+    .modal-lg: modal grande.
+    .modal-xl: modal extra grande.-->
+   <div class="container">
+    <div class="row mt-5">
+        <div class="col">
+            <button class="btn btn-success btn-md" data-bs-toggle="modal"
+            data-bs-target="#ventana-modal-ejemplo">Términos y Condiciones</button>
+            <!-- data-bs-toggle="modal" indica que se ejecutará una ventana modal al dar clic en ese botón -->
+
+            <div class="modal fade" id="ventana-modal-ejemplo" tabindex="-1" data-bs-backdrop="static">
+                <!-- tabindex permite que la ventana modal funcione -->
+                <!-- data-bs-backdrop impide que se cierre el modal dando clic fuera de él
+                .modal-dialog-centered: centra la modal verticalmente en medio de la pantalla ya que por defecto
+                aparecen un poco más arriba.
+                .modal-dialog-scrollable: hace que aparezca una barra de desplazamiento solo dentro de la modal,
+                manteniendo la cabecera y el pie fijos en su lugar.-->
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <!-- .modal-header: contiene la cabecera de la modal título y botón de cierre.
+                        .modal-title: se aplica al título para darle la tipografía correcta.
+                        .btn-close: coloca el botón de la "X" que cierra la modal.
+                        -->
+                        <div class="modal-header">
+                                    <h5 class="modal-title">Esto es un ejemplo</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi consectetur, ipsum temporibus consequatur modi minus pariatur id nostrum. Eius, magni?</div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Acepto</button>
+                                </div>
+                                <div class="modal-footer">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS en internet. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
